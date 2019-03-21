@@ -25,7 +25,7 @@ $navbar-default-bg: #269c98;
   color: white;
 }
 .jumbotron{
-  
+
   background-image: asset-url('images2.jpg');
   background-size: cover;
   height: 550px;
@@ -40,11 +40,15 @@ $navbar-default-bg: #269c98;
 }
 
 .btn-xlarge{
-  
+
   font-size: 1.7em;
   background-color: black;
 }
 
+.listing{
+  list-style: none;
+  padding-left: 0;
+}
 .article-meta-details{
   border-top: 1px solid #eaeaea;
   margin-top: 15px;
@@ -68,16 +72,16 @@ $navbar-default-bg: #269c98;
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
-  
+
 }
 footer{
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-   
+
 }
-  
+
 footer a:hover{
   color: #222;
 }
@@ -95,5 +99,3 @@ footer ul li{
   float: left;
   margin-left: 15px;
 }
-
-
