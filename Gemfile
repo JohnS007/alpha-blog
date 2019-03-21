@@ -9,7 +9,8 @@ gem 'rails', '~> 5.2.2'
 
 # bcrypt gem for secure passwords for the users in the databse
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -47,7 +48,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :development do 
+group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
